@@ -1,6 +1,7 @@
+import styles from "../styles/calcButton.module.css"
 function CalcButton(props) {
   return (
-    <div>
+    <div className={styles.number}>
       <button>{props.label}</button>
     </div>
   );

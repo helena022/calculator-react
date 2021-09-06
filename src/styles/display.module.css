@@ -1,0 +1,26 @@
+.display {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: ivory;
+}
+.displayOutput {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.displayOutput input[type=text] {
+    font-size: 80px;
+    max-width: 390px;
+    border: none;
+    background-color: transparent;
+    text-align: right; 
+}
+/* remove outline on input focus */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}

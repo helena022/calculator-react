@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap');
+
+.keypadGrid {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 12px;
+    column-gap: 12px;
+}
+.deleteBtnRow {
+    display: inline-flex;
+}
+.solar {
+    background-color: #333;
+    width: 170px;
+    height: 70px;
+    font-weight: bold;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: none;
+}
