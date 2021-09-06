@@ -7,9 +7,10 @@ function Keypad() {
     <div>
       <div>
         <div className={styles.deleteBtnRow}>
-        <span className={styles.solar}></span>
-        <DelButton label="AC"/>
-        <DelButton label="C"/></div>
+          <span className={styles.solar}></span>
+          <DelButton label="AC"/>
+          <DelButton label="C"/>
+        </div>
       </div>
       <div className={styles.keypadGrid}>
         <CalcButton label="7"/>

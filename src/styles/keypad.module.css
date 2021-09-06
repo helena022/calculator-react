@@ -8,14 +8,15 @@
     column-gap: 12px;
 }
 .deleteBtnRow {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+
 }
 .solar {
     background-color: #333;
     width: 170px;
     height: 70px;
     font-weight: bold;
-    margin-right: 12px;
     margin-bottom: 12px;
     border-radius: 12px;
     border: none;
