@@ -4,7 +4,7 @@ function Display() {
   return (
     <div className={styles.display}>
       <div className={styles.displayOutput}>
-        <input type="text"  value="11 + 55"></input>
+        <input type="text"  value="12 + 55"></input>
       </div>
     </div>
   );
