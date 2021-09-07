@@ -1,18 +1,15 @@
 import styles from "../styles/calcButton.module.css";
 
 function CalcButton(props) {
-  let styleClass = "";
 
-  const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+  let styleClass = "number";
 
   if (props.label === "="){
     styleClass = "equals";
-  } else if (numbers.includes(props.label)){
-    styleClass = "number";
-  } else {
-    styleClass = "operator"
+  } else if (isNaN(parseInt(props.label))) {
+    styleClass = "operator";
   }
-
+  
   return (
     <div className={`${styles[styleClass]}`}>
       <button>{props.label}</button>
