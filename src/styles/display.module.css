@@ -7,10 +7,11 @@
 .displayOutput {
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 .displayOutput input[type=text] {
-    font-size: 80px;
+    font-family: "digital-7";
+    color: #232c33;
+    font-size: 100px;
     max-width: 390px;
     border: none;
     background-color: transparent;
