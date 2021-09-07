@@ -21,3 +21,10 @@
     border-radius: 12px;
     border: none;
 }
+
+button:active {
+    -webkit-box-shadow: inset 0px 0px 5px #333;
+       -moz-box-shadow: inset 0px 0px 5px #333;
+            box-shadow: inset 0px 0px 5px #333;
+     outline: none;
+  }
