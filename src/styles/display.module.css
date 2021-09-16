@@ -18,6 +18,13 @@
     text-align: right; 
     caret-color: transparent;
 }
+::-moz-selection { /* Code for Firefox */
+  background: #b4bbda;
+}
+
+::selection {
+  background: #b4bbda;
+}
 /* remove outline on input focus */
 textarea:focus,
 input:focus {
