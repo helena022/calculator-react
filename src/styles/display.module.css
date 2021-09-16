@@ -16,6 +16,7 @@
     border: none;
     background-color: transparent;
     text-align: right; 
+    caret-color: transparent;
 }
 /* remove outline on input focus */
 textarea:focus,
